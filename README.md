@@ -2,6 +2,8 @@
 
 A [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) skill that guides users through brainstorming, structuring, and publishing product ideas for the [Intuition Protocol](https://intuition.systems) ecosystem.
 
+![Workflow Overview](assets/workflow-overview.png)
+
 ## What It Does
 
 This skill walks non-technical community members through a **5-step conversational workflow**:
@@ -41,7 +43,8 @@ Once installed, the skill triggers automatically when you say things like:
 ```
 .claude/skills/intuition-ideation/
 ├── SKILL.md                              # Main skill definition
-├── assets/                               # (reserved for future use)
+├── assets/
+│   └── workflow-overview.png             # Visual overview of the 5-step workflow
 └── references/
     ├── intuition-protocol-skill.md       # Full Intuition Protocol context (loaded at bootstrap)
     ├── intuition-basics.md               # Plain-English protocol explainer
